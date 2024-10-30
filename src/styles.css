@@ -37,6 +37,31 @@ header {
 }
 .App-data {
   display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.detials {
+  font-size: 16px;
+  color: #0660c6;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.details strong {
+  color: #0660c6;
+}
+.temp {
+  font-weight: bolder;
+  font-size: 68px;
+}
+.city {
+  margin: 0;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+main {
+  padding: 30px 0;
 }
 footer {
   border-top: 1px solid #0660c6;
