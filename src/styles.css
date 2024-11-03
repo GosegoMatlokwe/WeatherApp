@@ -36,15 +36,15 @@ header {
   cursor: pointer;
 }
 .App-data {
-  display: flex;
-  justify-content: space-between;
   font-size: 16px;
+  display: flex;
 }
 .detials {
   font-size: 16px;
   color: #0660c6;
   line-height: 24px;
   font-weight: 500;
+  padding-left: 10px;
 }
 
 .details strong {
@@ -52,7 +52,11 @@ header {
 }
 .temp {
   font-weight: bolder;
-  font-size: 68px;
+  font-size: 62px;
+}
+.icon {
+  font-size: 32px;
+  margin-top: 12px;
 }
 .city {
   margin: 0;
@@ -62,6 +66,13 @@ header {
 
 main {
   padding: 30px 0;
+}
+.unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+.temperature-container {
+  display: flex;
 }
 footer {
   border-top: 1px solid #0660c6;
